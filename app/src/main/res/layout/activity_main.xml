@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/lightBrown"
     android:orientation="vertical">
 
 
@@ -17,6 +18,12 @@
 
     <TextView
         android:id="@+id/textViewWelcome"
+        android:textSize="36sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/Main_welcome" />
@@ -25,7 +32,11 @@
         android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:layout_margin="8sp"
         android:ems="10"
+        android:textColorHint="@color/white"
+        android:textStyle="bold"
         android:inputType="textPersonName"
         android:hint="@string/Main_hint_name" />
 
@@ -33,12 +44,21 @@
         android:id="@+id/editTextPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:layout_margin="8sp"
+        android:textStyle="bold"
         android:ems="10"
+        android:hint="@string/Main_hint_password"
         android:inputType="textPassword" />
 
     <Button
         android:id="@+id/buttonCreateOrder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:textColor="@color/darkBrown"
+        android:layout_margin="8sp"
+        android:textSize="24sp"
         android:text="@string/Main_button_create_order" />
 </LinearLayout>
