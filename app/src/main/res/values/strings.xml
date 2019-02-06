@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Udemy Cafe Order</string>
+
+    <string name="Main_logo_description">Логотип кофе</string>
+    <string name="Main_welcome">Добро пожаловать!</string>
+    <string name="Main_hint_name">Введите ваше имя:</string>
+    <string name="Main_hint_password">Введите ваш пароль:</string>
+    <string name="Main_button_create_order">Создать заказ</string>
+
 </resources>
