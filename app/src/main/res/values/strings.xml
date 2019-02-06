@@ -6,5 +6,6 @@
     <string name="Main_hint_name">Введите ваше имя:</string>
     <string name="Main_hint_password">Введите ваш пароль:</string>
     <string name="Main_button_create_order">Создать заказ</string>
+    <string name="Main_toast_create_order">Все поля должны быть заполнены</string>
 
 </resources>
