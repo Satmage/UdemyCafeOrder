@@ -1,11 +1,33 @@
 <resources>
     <string name="app_name">Udemy Cafe Order</string>
 
-    <string name="Main_logo_description">Логотип кофе</string>
-    <string name="Main_welcome">Добро пожаловать!</string>
+    <string name="Main_imageView_logo_description">Логотип кофе</string>
+    <string name="Main_textView_welcome">Добро пожаловать!</string>
     <string name="Main_hint_name">Введите ваше имя:</string>
     <string name="Main_hint_password">Введите ваш пароль:</string>
     <string name="Main_button_create_order">Создать заказ</string>
     <string name="Main_toast_create_order">Все поля должны быть заполнены</string>
+
+    <string name="createOrder_textView_hello">Привет, клиент! Что желаете?</string>
+    <string name="createOrder_radioButton_tea">Чай</string>
+    <string name="createOrder_radioButton_coffee">Кофе</string>
+    <string name="createOrder_textView_What">Что добавить в ваш чай?</string>
+    <string name="createOrder_checkBox_milk">Молоко</string>
+    <string name="createOrder_checkBox_sugar">Сахар</string>
+    <string name="createOrder_checkBox_lemon">Лемон</string>
+    <string name="createOrder_textView_ChooseDrink">Выберите вид напитка:</string>
+    <string name="createOrder_ImageView_description_sendOrder">Кнопка отправить заказ</string>
+
+    <string-array name="CreateOrder_options_of_coffee">
+        <item>Американо</item>
+        <item>Эспрессо</item>
+        <item>Латте</item>
+    </string-array>
+
+    <string-array name="CreateOrder_option_of_tea">
+        <item>Черный</item>
+        <item>Зеленый</item>
+        <item>Красный</item>
+    </string-array>
 
 </resources>
